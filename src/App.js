@@ -22,7 +22,7 @@ function App() {
 
             }).catch(err => {
             console.warn(err)
-            alert('no informations')
+            alert('no informations')//не пришла иформация
         })
     }, [])
 
